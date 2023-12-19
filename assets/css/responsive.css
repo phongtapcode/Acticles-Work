@@ -1,0 +1,383 @@
+@media screen and (max-width: 1000px) {
+    html {
+      min-width: -moz-fit-content;
+      min-width: fit-content;
+      width: 100%;
+    }
+    main {
+      width: 100%;
+      min-width: -moz-fit-content ;
+      min-width: fit-content;
+    }
+    /* Header */
+    header .norespon{
+        display: none;
+    }
+    header .respon{
+        display: block;
+    }
+    header .respon .responsive-nav img{
+        width: 60px;
+    }
+    /* End Header */
+    /* Main Content */
+    .main__content .main__content-title {
+        margin-top: 70px;
+        width: 90%;
+        font-size: 8rem;
+    }
+    .main__content .main__content-desc {
+        width: 90%;
+        font-size: 5rem;
+    }
+    /* End Main Content */
+    /* Infor */
+    .infor{
+        width: 90%;
+    }
+    .infor-contact {
+        width: auto;
+        height: 57px;
+        margin-top: 20px;
+      }
+      .infor-contact .infor-contact__avatar img {
+        border-radius: 50%;
+        width: 15rem;
+      }
+      .infor-contact .infor-contact__social {
+        /* margin-right: -20px; */
+      }
+      
+      .infor-contact__avatar {
+        position: relative;
+      }
+      .infor-contact__avatar h1 {
+        position: absolute;
+        font-size: 4rem;
+        left: 80px;
+        bottom: 30px;
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+      }
+      .infor-contact__avatar h2 {
+        position: absolute;
+        left: 80px;
+        bottom: 10px;
+        color: #000;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .infor .infor-contact{
+        display: none;
+      }
+      
+      .infor .infor-contact-responsive{
+        margin-top: 50px;
+        display: block;
+      }
+      .infor-contact-responsive .infor-contact__social{
+        margin-top: 20px;
+      }
+      .infor .infor-contact-responsive .infor-contact__avatar img{
+        width: 14rem;
+        border-radius: 50%;
+      }
+
+      .infor-contact__avatar {
+        position: relative;
+      }
+      .infor-contact__avatar h1 {
+        position: absolute;
+        font-size: 3rem;
+        left: 170px;
+        bottom: 80px;
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+      }
+      .infor-contact__avatar h2 {
+        position: absolute;
+        left: 170px;
+        bottom: 30px;
+        color: #000;
+        font-family: SF Pro Text;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      
+    /* End Infor */
+    /* Description */
+    .infor-des p {
+      color: #000;
+      font-family: New York Medium;
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+    }
+
+    .infor-des__img {
+      width: 100%;
+      text-align: center;
+      margin: auto;
+      max-width: 100%;
+      margin-top: 30px;
+    }
+    
+    .infor-des__img img {
+      max-width: 100%;
+      height: auto;
+    }
+    .infor-des__img p {
+      width: 700px;
+      margin: auto;
+      color: #000;
+      text-align: center;
+      font-family: SF Pro Text;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      margin-top: 10px;
+    }
+
+    .infornext {
+      width: 90%;
+      align-self: center;
+      margin-top: 30px;
+    }
+    .infornext .infornext-des {
+      width: auto;
+      margin-top: 20px;
+      color: #000;
+      font-family: New York Medium;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+    }
+    .infornext-des p {
+      color: #000;
+      font-family: New York Medium;
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+    }
+    .infornext-des li {
+      color: #000;
+      font-family: New York Medium;
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+    }
+    .infornext-des p:last-child {
+      margin-top: -12px;
+    }
+    
+    .infornext-des__share {
+      font-size: 31rem;
+      margin-top: 30px;
+      border-bottom: dotted 2px black;
+    }
+    .infornext-des__share .pagination .page-item span {
+      font-size: 20px;
+      padding: 20px 90px;
+      color: #000;
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%; /* 1.6rem */
+    }
+    .infornext-des__share p {
+      margin-top: 30px;
+      font-size: 2.5rem;
+      color: #000000;
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.03rem;
+      margin-bottom: 30px;
+    }
+    .infornext-des__share p a {
+      font-size: 2.5rem;
+      color: #0c0c0c;
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.03rem;
+      text-decoration-line: underline;
+    }
+    .infornext .infornext-des__comment{
+      display: none;
+    }
+    .infornext .infornext-des__comments{
+      display: block;
+    }
+    .infornext-des__comments {
+      margin-top: 20px;
+      width: auto;
+    }
+    .infornext-des__comments .row .col-3 img {
+      width: 17rem;
+      border-radius: 50%;
+    }
+    .infornext-des__comments .row .col-9 h1 {
+      display: inline-block;
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+    .infornext-des__comments .row .col-9 {
+      font-size: 2.7rem;
+      color: #0c0c0c;
+      font-family: New York Small;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+    }
+
+    /* End Description */
+    .articles {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+    .articles .articles__img {
+      width: 90px;
+      align-self: center;
+      margin-top: 100px;
+      z-index: 1;
+    }
+    .articles .articles__title {
+      color: #000;
+      text-align: center;
+      font-size: 4.4rem;
+      font-weight: 700;
+      margin-top: 40px;
+      position: relative;
+    }
+
+    .articles .articles__layout {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      gap: 10px 28px;
+      margin-top: 40px;
+    }
+    .articles .articles__layout-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .articles .articles__layout-item .desc {
+      color: #000;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 500;
+      width: 70%;
+    }
+    /* Signup */
+    .signup {
+      display: flex;
+      width: 100%;
+      height: 400px;
+      flex-direction: column;
+      align-items: center;
+      border: none;
+      border-top: solid 15px black;
+      margin-top: 100px;
+    }
+    
+    .signup .signup__title {
+      width: 80%;
+      color: #090909;
+      text-align: center;
+      font-family: New York Extra Large;
+      font-size: 5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 50px; 
+      margin-top: 60px;
+    }
+    
+    .signup .signup__des {
+      width: 80%;
+      text-align: center;
+      color: #090909;
+      text-align: center;
+      font-family: SF Pro Text;
+      font-size: 3.4rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 4rem; /* 140% */
+      margin-top: 30px;
+    }
+    .signup .signup__email .input-group {
+      height: 100px;
+      width: 100%;
+      margin-top: 30px;
+    }
+    
+    .signup .signup__email .input-group input {
+      height: 82px;
+      width: 70%;
+      border: solid 1px black;
+      color: #000;
+      font-family: SF Pro Text;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    
+    .signup .signup__email .input-group .input-group-append .input-group-text {
+      padding: 40px 100px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      font-family: SF Pro Text;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.0625rem;
+      text-transform: uppercase;
+      border: solid 1px black;
+      padding-left: 19px;
+    }
+    /* End Signup */
+    footer {
+      width: 100%;
+      background: #000;
+      flex-direction: column;
+      margin-top: 80px;
+    }
+    footer .footer__list a {
+      font-size: 1.2rem;
+    }
+    footer .footer__desc {
+      margin-top: 20px;
+      color: #fff;
+      text-align: center;
+      font-size: 2rem;
+      align-self: center;
+    }
+  }
