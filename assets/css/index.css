@@ -281,10 +281,13 @@ header .respon {
 
 /* Acticles */
 .articles {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-self: center;
+  width: 1629px;
+  border-top: solid 5px black;
+  position: relative;
+  margin-top: 80px;
 }
 .articles .articles__img {
   width: 90px;
@@ -300,18 +303,13 @@ header .respon {
   margin-top: 40px;
   position: relative;
 }
-.articles{
-  width: 100%;
-  border-top: solid 5px black;
-  position: relative;
-  margin-top: 80px;
-}
 .articles .articles__img{
   position: absolute;
   top: -140px;
 }
 .articles .articles__layout {
-  width: 100%;
+  align-self: center;
+  width: 65%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -334,7 +332,7 @@ header .respon {
   width: 262px;
 }
 /* End Acticles */
-
+/* Signup */
 .signup {
   display: flex;
   width: 60%;
@@ -346,7 +344,6 @@ header .respon {
   margin-top: 100px;
   align-self: center;
 }
-
 .signup .signup__title {
   color: #090909;
   text-align: center;
@@ -357,7 +354,6 @@ header .respon {
   line-height: 1.75rem; /* 77.778% */
   margin-top: 60px;
 }
-
 .signup .signup__des {
   width: 550px;
   text-align: center;
@@ -375,7 +371,6 @@ header .respon {
   width: 450px;
   margin-top: 30px;
 }
-
 .signup .signup__email .input-group input {
   height: 50px;
   border: solid 1px black;
@@ -386,7 +381,6 @@ header .respon {
   font-weight: 400;
   line-height: normal;
 }
-
 .signup .signup__email .input-group .input-group-append .input-group-text {
   height: 50px;
   width: 110px;
@@ -403,7 +397,7 @@ header .respon {
   border: solid 1px black;
   padding-left: 19px;
 }
-
+/* End SignUp */
 /* Footer */
 footer {
   background: #000;

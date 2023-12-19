@@ -272,7 +272,6 @@
       margin-top: 40px;
       position: relative;
     }
-
     .articles .articles__layout {
       width: 100%;
       display: grid;
@@ -304,8 +303,7 @@
       border: none;
       border-top: solid 15px black;
       margin-top: 100px;
-    }
-    
+    }    
     .signup .signup__title {
       width: 80%;
       color: #090909;
@@ -317,7 +315,6 @@
       line-height: 50px; 
       margin-top: 60px;
     }
-    
     .signup .signup__des {
       width: 80%;
       text-align: center;
@@ -346,8 +343,7 @@
       font-style: normal;
       font-weight: 400;
       line-height: normal;
-    }
-    
+    }   
     .signup .signup__email .input-group .input-group-append .input-group-text {
       padding: 40px 100px;
       background-color: black;
