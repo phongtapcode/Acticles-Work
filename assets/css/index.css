@@ -58,7 +58,7 @@ nav li.active a::after {
   background: #171100;
   border-radius: 1px;
 }
-header .respon{
+header .respon {
   display: none;
 }
 /* End Header */
@@ -104,7 +104,7 @@ header .respon{
   border-radius: 50%;
 }
 .infor-contact .infor-contact__social {
-  margin-right: -20px;
+  margin-right: -45px;
 }
 
 .infor-contact__avatar {
@@ -133,7 +133,7 @@ header .respon{
   font-weight: 400;
   line-height: normal;
 }
-.infor-contact-responsive{
+.infor-contact-responsive {
   display: none;
 }
 /* infor contact */
@@ -234,7 +234,7 @@ header .respon{
 }
 .infornext-des__share p {
   margin-top: 30px;
-  font-size: 3rem;
+  font-size: 2.2rem;
   color: #0c0c0c;
   font-family: SF Pro Text;
   font-style: normal;
@@ -244,7 +244,7 @@ header .respon{
   margin-bottom: 30px;
 }
 .infornext-des__share p a {
-  font-size: 10px;
+  font-size: 2rem;
   color: #0c0c0c;
   font-family: SF Pro Text;
   font-style: normal;
@@ -257,8 +257,8 @@ header .respon{
 .infornext-des__comment {
   margin-top: 20px;
   width: auto;
-}    
-.infornext .infornext-des__comments{
+}
+.infornext .infornext-des__comments {
   display: none;
 }
 .infornext-des__comment .row .col-2 img {
@@ -285,7 +285,6 @@ header .respon{
   display: flex;
   flex-direction: column;
   align-self: center;
-
 }
 .articles .articles__img {
   width: 90px;
@@ -301,17 +300,16 @@ header .respon{
   margin-top: 40px;
   position: relative;
 }
-/* .articles .articles__title::after {
+.articles{
+  width: 100%;
+  border-top: solid 5px black;
+  position: relative;
+  margin-top: 80px;
+}
+.articles .articles__img{
   position: absolute;
-  content: "";
-  right: -318px;
-  bottom: 130px;
-  display: block;
-  width: 120vw;
-  height: 3px;
-  background-color: #000;
-} */
-
+  top: -140px;
+}
 .articles .articles__layout {
   width: 100%;
   display: grid;
@@ -320,7 +318,7 @@ header .respon{
   gap: 10px 28px;
   margin-top: 20px;
 }
-.articles__layout img{
+.articles__layout img {
   width: 85%;
 }
 .articles .articles__layout-item {
@@ -471,4 +469,3 @@ footer .copyright p:last-child {
   padding-bottom: 32px;
 }
 /* End Footer */
-
