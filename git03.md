@@ -2,6 +2,7 @@
   - Gitignore là file có tên là .gitignore do Git quy định. 
   - Nhiệm vụ của nó là liệt kê những file mà mình không mong muốn cho vào git hoặc hiểu nôm na là Git sẽ bỏ qua những file đó đi. 
   - Gitignore hiện nay rất quan trọng trong team work, nên áp dụng ngay vào quy trình làm việc của team.
+
 Cách thức hoạt động:
   - Có thể hiểu đơn giản là git sẽ bỏ qua file hoặc một tập các file trong project của chúng ta khi commit và push lên repository. Ví dụ:
     + Các file mà IDE tự sinh ra trong quá trình build project -> Tránh tốn kém tài nguyên server lưu trữ project.
@@ -11,6 +12,7 @@ Cách thức hoạt động:
   - Git quản lý các file mà chúng ta muốn “ignore” bằng file .gitignore được đặt ở trong thư mục root project.
   - Khi add 1 file mới vào git, git sẽ kiểm tra danh sách những file sẽ bỏ qua trong file .gitignore và không add chúng vào git. 
   - Đó mới chỉ là điều kiện cần, điều kiện đủ là files không có trong git cache nữa thì git nó mới bỏ qua, chứ files mà nằm trong git cache thì .gitignore sẽ vô tác dụng.
+    
 Cú pháp:
   - Để Gitignore có thể nhận dạng chuẩn xác được những File bạn cần bỏ qua đòi hỏi cú pháp phải thật chuẩn.
   - Trong Git Ignore Folder không tồn tại cú pháp trống bởi file nào cũng chứa phần trống. Vì thế tác dụng của nó chỉ là phần cách cho dễ đọc thôi.
